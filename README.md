@@ -4,4 +4,6 @@
 ### 支持平台
 - Centos 7
 - Centos 8
+- Ubuntu 20.10
 - Ubuntu 21.10
+
