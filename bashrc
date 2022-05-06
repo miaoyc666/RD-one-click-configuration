@@ -1,0 +1,28 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# User specific aliases and functions
+
+# common
+alias his='history'
+alias ll='ls -hl'
+alias la='ls -ahl'
+
+# app
+alias cat='ccat'
+alias gst='git status'
+alias json='python -m json.tool'
+
+# docker k8s
+alias dk='docker'
+alias dkll='docker ps -a'
+alias kb='kubectl'
+
+# tmux
+alias tnew='tmux new'
+alias tls='tmux ls'
+alias tat='tmux attach -t'
