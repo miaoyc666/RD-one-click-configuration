@@ -1,7 +1,7 @@
 # RD-one-click-configuration
 研发配置一键配置, R&D one click configuration
 
-### 支持平台
+### 支持操作系统
 - Centos 7
 - Ubuntu 22.04 LTS
 
