@@ -1,6 +1,11 @@
 # RD-one-click-configuration
 研发配置一键配置, R&D one click configuration
 
+### 使用方法
+```bash
+./install.sh
+```
+
 ### 支持操作系统
 - Centos 7
 - Ubuntu 22.04 LTS
