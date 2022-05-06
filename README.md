@@ -16,3 +16,4 @@
 - vim
 - tmux
 - htop
+- ccat
