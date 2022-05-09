@@ -1,0 +1,11 @@
+[alias]
+    ck = checkout
+    s = status
+    b = branch
+[user]
+    email = miaoyc1989@hotmail.com
+    name = miaoyc
+[core]
+    editor = vim
+[pager]
+    branch = false
