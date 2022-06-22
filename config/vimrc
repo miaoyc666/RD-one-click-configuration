@@ -76,3 +76,4 @@ let &guicursor = &guicursor . ",a:blinkon0"
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set paste
