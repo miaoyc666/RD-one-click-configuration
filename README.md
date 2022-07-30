@@ -11,6 +11,7 @@
 - Ubuntu 22.04 LTS
 
 ### 一键配置清单
+- install ccat
 - mirrors source: yum or apt
 - install tmux
 - .bashrc
