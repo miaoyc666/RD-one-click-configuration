@@ -19,7 +19,7 @@
 - .gitconfig
 
 ### 一键安装应用清单
+- ccat
 - vim
 - tmux
 - htop
-- ccat
