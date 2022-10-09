@@ -12,11 +12,17 @@ sudo cp bin/ccat /usr/local/bin/ccat
 cp config/my_alias ~/.my_alias
 echo "" >> ~/.bashrc
 echo ". ~/.my_alias" >> ~/.bashrc
+echo "export LANG=\"zh_CN.UTF-8\"" >> ~/.bashrc
+echo "export LC_ALL=\"zh_CN.UTF-8\"" >> ~/.bashrc
+
 
 # copy yum
 
 
 # copy apt
+
+
+# install tmux
 
 
 
