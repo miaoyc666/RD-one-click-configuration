@@ -1,24 +1,24 @@
 # RD-one-click-configuration
-研发配置一键配置, R&D one click configuration
+R&D environment one click configuration
 
-### 使用方法
+### Usage
 ```bash
 ./install.sh
 ```
 
-### 支持操作系统
+### OS support
 - Centos 7
 - Ubuntu 22.04 LTS
 
-### 一键配置清单
+### How to do
 - install ccat
-- mirrors source: yum or apt
+- mirrors source config: yum or apt
 - install tmux
-- .bashrc
-- .vimrc
-- .gitconfig
+- copy .bashrc
+- copy .vimrc
+- copy .gitconfig
 
-### 一键安装应用清单
+### Software List
 - ccat
 - vim
 - tmux
