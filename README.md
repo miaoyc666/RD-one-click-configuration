@@ -1,25 +1,37 @@
 # RD-one-click-configuration
-R&D environment one click configuration
+
+R&D environment one-click configuration script for Linux servers.
 
 ### Usage
+
 ```bash
 ./install.sh
 ```
 
-### OS support
-- Centos 7
-- Ubuntu 22.04 LTS
+### Supported OS
 
-### How to do
-- install ccat
-- mirrors source config: yum or apt
-- install tmux
-- copy .bashrc
-- copy .vimrc
-- copy .gitconfig
+| OS | Version |
+|----|---------|
+| CentOS | 7, 8 |
+| Ubuntu | 22.04 LTS |
+| Debian | 12 |
+
+### What it does
+
+1. **Mirrors source** — configure yum / apt mirror (disabled, pending test)
+2. **zsh & oh-my-zsh** — install zsh, oh-my-zsh with `bira` theme, `zsh-autosuggestions` and `zsh-syntax-highlighting` plugins, set zsh as default shell
+3. **Config files** — deploy `.vimrc`, `.gitconfig`, `.ssh/config`, and custom aliases to both `.bashrc` and `.zshrc`
+4. **tmux** — install via package manager
+5. **ccat** — install colorized `cat` replacement
 
 ### Software List
-- ccat
-- vim
-- tmux
-- htop
+
+| Software | Description |
+|----------|-------------|
+| zsh | Z shell |
+| oh-my-zsh | zsh framework with theme & plugins |
+| zsh-autosuggestions | fish-like autosuggestions for zsh |
+| zsh-syntax-highlighting | syntax highlighting for zsh |
+| tmux | terminal multiplexer |
+| ccat | colorized cat |
+| vim | text editor |
