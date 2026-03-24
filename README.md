@@ -10,11 +10,9 @@ R&D environment one-click configuration script for Linux servers.
 
 ### Supported OS
 
-| OS | Version |
-|----|---------|
-| CentOS | 7, 8 |
-| Ubuntu | 22.04 LTS |
-| Debian | 12 |
+- CentOS
+- Ubuntu
+- Debian
 
 ### What it does
 
